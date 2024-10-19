@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  flex-direction: row;
+}
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.side,
+.side2 {
+  flex: 50%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+.border {
+  display: flex;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+.main {
+  background-color: #fff;
+  padding: 20px;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 15rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.fifth_template_logo {
+  width: 20rem;
+  height: 20rem;
+  margin-right: 2rem;
+}
+.logo_name {
+  width: 25rem;
+}
+.fifth_template_logo_name {
+  margin-top: 2rem;
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+}
+.fifth_template_img {
+  width: 17rem;
+  height: 17rem;
+  object-fit: cover;
+  object-position: top;
+  margin-right: 20px;
+  padding: 1rem;
+}
+.fifth_template_text {
+  max-width: 20rem;
+  max-height: 15rem;
+}
+.input_email {
+  background-color: #fff;
+  color: #000;
+  border: 0.1rem solid #000;
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  font-family: "E-Ukraine", sans-serif;
+  height: 4rem;
+  width: 40rem;
+}
+.email_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.button_email {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.3rem;
+  transition-duration: 0.4s;
+  margin-left: 1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: "E-Ukraine", sans-serif;
+  height: 4rem;
+  width: 15rem;
+}
+.button_email:hover {
+  background-color: #ccc;
+  color: #000;
+}
+address {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.box {
+  flex: 1;
+  padding: 1rem 10px;
+}
+.box li {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+.box li:last-child {
+  margin-bottom: 0;
+}
+.footer_svg {
+  height: 1.4rem;
+  width: 1.4rem;
+}
+.footer_text {
+  color: #000;
+  text-decoration: none;
+  font-style: normal;
+}
+.footer_text:hover {
+  text-decoration: underline;
+}
+address ul {
+  list-style: none;
+  padding: 0;
+}
+@media screen and (max-width: 916px) {
+  .row,
+  .navbar .footer {
+    flex-direction: column;
+  }
+  .email_container {
+    margin-top: 1rem;
+    flex-direction: column;
+  }
+  .first_template_search-input {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+  .button_email {
+    margin-top: 1rem;
+  }
+  .first_header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .first_template_logo_container {
+    margin-bottom: 1rem;
+  }
+  .side,
+  .side2 {
+    flex: 100%;
+    text-align: center;
+  }
+  .fifth_template_logo,
+  .fifth_template_img {
+    height: 15rem;
+    width: 15rem;
+  }
+  .logo_name {
+    width: 100%;
+    text-align: center;
+  }
+  .fifth_template_logo_name {
+    font-size: 2.5rem;
+  }
+  .input_email {
+    width: 100%;
+  }
+  .button_email {
+    width: 100%;
+    margin-left: 0;
+  }
+  .footer {
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+  address {
+    flex-direction: column;
+    align-items: center;
+  }
+  .box {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 520px) {
+  .border {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .fifth_template_img {
+    align-self: center;
+    margin-right: 0;
+  }
+}

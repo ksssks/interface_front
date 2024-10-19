@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  background-color: #333;
+  justify-content: center;
+
+  a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+
+    &:hover {
+      background-color: #ddd;
+      color: black;
+    }
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side, .side2 {
+  flex: 20%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {
+  flex: 60%;
+  background-color: white;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+.first_template_img {
+  width: 100%;
+}
+
+.first_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+
+  .first_template_logo_container {
+    display: flex;
+    align-items: center;
+
+    .first_template_logo {
+      width: 5rem;
+      height: 5rem;
+      margin-right: 1rem;
+    }
+
+    .first_template_logo_name {
+      font-family: "Bowlby One SC", sans-serif;
+      font-weight: 400;
+      font-size: 1rem;
+    }
+  }
+
+  .first_template_search-container {
+    display: flex;
+    align-items: center;
+
+    .first_template_search-input {
+      margin: 0.5rem;
+      padding: 1rem;
+      font-size: 16px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      width: 20rem;
+      font-family: "E-Ukraine", sans-serif;
+    }
+
+    .first_template_search-button {
+      margin-left: 0.5rem;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 1rem;
+    }
+
+    .first_template_search-icon {
+      width: 1.5rem;
+      height: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .row, .navbar {
+    flex-direction: column;
+  }
+
+  .first_template_search-input {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  .first_header {
+    flex-direction: column;
+    align-items: flex-start;
+
+    .first_template_logo_container {
+      margin-bottom: 1rem;
+    }
+  }
+}

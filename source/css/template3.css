@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+}
+
+.third_template_header, .third_template_footer {
+    background-color: #CCCCCC;
+    color: white;
+    padding: 15px;
+    border: 1px solid black;
+
+}
+.third_template_header{
+    position: relative;
+}
+.third_template_column {
+    padding: 20px;
+    width: 50%;
+    height: 36.5rem;
+}
+
+.third_template_clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.third_template_image_class {
+    float: right;
+}
+.third_template_1{
+    margin-top: 50px;
+}
+.third_template_image {
+    width: 46rem;
+    height: 35rem;
+    align-self: center;
+}
+
+.third_template_logo_container {
+    float: left;
+    align-items: center;
+}
+
+.third_template_logo {
+    width: 5rem;
+    height: 5rem;
+    margin-right: 1rem;
+}
+
+.third_template_logo_name {
+    margin-right: 1rem;
+    font-family: "Bowlby One SC", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: black
+}
+
+.third_template_register_button {
+    float: right;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-right: 1rem;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "E-Ukraine", sans-serif;
+    height: 4rem;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.third_template_register_button:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.third_template_register_2_button {
+    float: left;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin: 2rem 2.5rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "E-Ukraine", sans-serif;
+    height: 6rem;
+    width: 26rem;
+}
+
+.third_template_register_2_button:hover {
+    background-color: #CCCCCC;
+    color: black;
+}
+
+.third_footer_text {
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.third_footer_box li {
+    margin-bottom: 1rem;
+    padding-left: 7rem;
+}
+
+.third_footer_box {
+    float: left;
+    width: 25%;
+}
+
+.third_footer_svg {
+    height: 1.8rem;
+    width: 1.8rem;
+}
+
+.third_footer_text:hover {
+    text-decoration: underline;
+}
+
+address ul {
+    list-style: none;
+}
+
+.third_template_2 {
+    margin-top: 1rem;
+}
+
+.third_main_box {
+    float: left;
+    width: 33.33%;
+    padding: 2rem;
+}
+.text_third_main_box{
+    border: 1px solid black;
+    padding: 2rem;
+    height: 30rem;
+}
+
+.text_third_main_box_2{
+    border: 1px solid black;
+    padding: 2rem;
+    height: 17rem;
+}
+.third_divider{
+    float: left;
+    width: 50%;
+}
+.interesting header h1{
+    margin: 0;
+}
+.interesting.header {
+    text-align: center;
+    margin: 20px 0;
+}
+.third_main_box span {
+    font-weight: bold;
+}
+
+.third_template_2 .third_template_register_2_button {
+    margin-left: 36%;
+    margin-top: 0.5rem;
+}
+
+.third_main_box_number{
+    font-size: 8.5rem;
+    font-family: "Bowlby One SC", sans-serif;
+}
+
+@media (max-width: 1300px) {
+
+    .third_template_column {
+        width: 100%;
+        height: auto;
+    }
+
+    .third_template_image {
+        width: 100%;
+        height: auto;
+    }
+
+    .third_template_logo {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .third_template_logo_name {
+        font-size: 1.5rem;
+    }
+    .third_template_register_button,
+    .third_template_register_2_button {
+        font-size: 1rem;
+    }
+    .third_template_logo_container {
+        float: none;
+    }
+    .third_footer_box {
+        width: 100%;
+        float: none;
+        margin-bottom: 1rem;
+    }
+    .third_template_2 .third_template_register_2_button {
+        margin: 2rem 2.5rem;
+        max-width: 80%;
+    }
+    .third_template_register_2_button {
+        max-width: 80%;
+    }
+    .third_main_box {
+        width: 100%;
+        float: none;
+        padding: 1rem;
+    }
+
+    .text_third_main_box,
+    .text_third_main_box_2 {
+        height: auto;
+        min-height: 17rem;
+    }
+
+    .third_main_box_number {
+        font-size: 9rem;
+        height: 100%;
+    }
+
+    .third_footer_box li {
+        padding-left: 1.2rem;
+    }
+}
+@media (max-width: 500px) {
+
+
+    .third_template_register_button {
+        float: unset;
+        margin-right: unset;
+        height: 2.5rem;
+        margin-top: 1rem;
+        right: unset;
+        top: unset;
+        transform: unset;
+        position: unset;
+    }
+    .third_main_box_number {
+        float: none;
+        display: block;
+        margin: 0 auto 10px;
+        width: fit-content;
+    }
+
+    .third_main_box_text {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+}

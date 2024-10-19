@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template 2</title>
+    <!--    <link rel="stylesheet" href="../css/styles.css">-->
+    <link rel="stylesheet" href="../source/scss/style.css">
+    <!--    <link rel="stylesheet" href="../css/template2.css">-->
+    <link rel="stylesheet" href="../source/scss/template2.css">
+</head>
+<body>
+
+<div class="header">
+    <a href="../index.html" class="logo">Лабораторна робота Front End</a>
+    <div class="header-right">
+        <a href="../index.html">1 Template</a>
+        <a href="template2.html">2 Template</a>
+        <a href="template3.html">3 Template</a>
+        <a href="template4.html">4 Template</a>
+        <a href="template5.html">5 Template</a>
+    </div>
+</div>
+
+<div class="second_template">
+    <div class="grid-container">
+        <div class="item1">
+            <div class="second_template_logo_container">
+                <img src="../assets/svg/logo.svg" alt="logo" class="second_template_logo">
+                <div class="second_template_logo_name">RideForge</div>
+            </div>
+        </div>
+        <div class="item2">
+            <div class="second_template_search-container">
+                <label>
+                    <input type="text" class="second_template_search-input" placeholder="Search...">
+                </label>
+                <button class="second_template_search-button">
+                    <img src="../assets/svg/search.svg" alt="Search" class="second_template_search-icon">
+                </button>
+            </div>
+        </div>
+
+        <div class="item3">
+            <button class="second_template_cart-button">
+                <img src="../assets/svg/cart.svg" alt="Cart" class="second_template_cart-icon">
+            </button>
+        </div>
+        <div class="item4">
+            <div class="sidebar">
+                <h3>Фільтри</h3>
+
+                <div class="filter-section">
+                    <label for="category">Категорія:</label>
+                    <select id="category" name="category">
+                        <option value="all">Всі</option>
+                        <option value="boots">Мотоботи</option>
+                        <option value="jackets">Мотокуртки</option>
+                        <option value="helmets">Шоломи</option>
+                        <option value="gloves">Моторукавички</option>
+                    </select>
+                </div>
+
+                <div class="filter-section">
+                    <label for="brand">Бренд:</label>
+                    <select id="brand" name="brand">
+                        <option value="all">Всі</option>
+                        <option value="alpinestars">Alpinestars</option>
+                        <option value="icon">Icon</option>
+                        <option value="thor">Thor</option>
+                        <option value="ls2">LS-2</option>
+                    </select>
+                </div>
+
+                <div class="filter-section">
+                    <label for="price-range">Ціна (грн):</label>
+                    <input type="range" id="price-range" name="price" min="1000" max="30000" step="500">
+                    <p id="price-value">Від 1000 до 30000 грн</p>
+                </div>
+
+                <div class="popular-links">
+                    <h4>Популярні бренди:</h4>
+                    <ul>
+                        <li><a href="#">Alpinestars</a></li>
+                        <li><a href="#">Icon</a></li>
+                        <li><a href="#">Thor</a></li>
+                        <li><a href="#">LS-2</a></li>
+                        <li><a href="#">Gaerne</a></li>
+                    </ul>
+                </div>
+
+                <div class="category-links">
+                    <h4>Категорії:</h4>
+                    <ul>
+                        <li><a href="#">Мотоботи</a></li>
+                        <li><a href="#">Мотокуртки</a></li>
+                        <li><a href="#">Шоломи</a></li>
+                        <li><a href="#">Моторукавички</a></li>
+                    </ul>
+                </div>
+
+                <button class="apply-filters">Застосувати фільтри</button>
+            </div>
+        </div>
+        <div class="item5">Наші найпопулярніші моделі
+            <div class="main_grid-container">
+                <div class="element_grid-container">
+                    <div class="element1"><img src="../assets/products/motorcycle_boots/thor_radix_mx_white.png"
+                                               alt="Photo of Product" class="element_photo_card"></div>
+                    <div class="element2"><p>Мотоботи THOR Radial MX, Білий</p></div>
+                    <div class="element3">
+                        <button class="element_button element_button1">Купити</button>
+                    </div>
+                    <div class="element4"><p>13 244 грн</p></div>
+                </div>
+                <div class="element_grid-container">
+                    <div class="element1"><img src="../assets/products/motorcycle_boots/icon_elsinore_2_black.png"
+                                               alt="Photo of Product" class="element_photo_card"></div>
+                    <div class="element2"><p>Мотоботи ICON Elsinore 2, Чорний</p></div>
+                    <div class="element3">
+                        <button class="element_button element_button1">Купити</button>
+                    </div>
+                    <div class="element4"><p>13 963 грн</p></div>
+                </div>
+                <div class="element_grid-container">
+                    <div class="element1"><img
+                            src="../assets/products/motorcycle_boots/alpinestars_tech3_enduro_black.png"
+                            alt="Photo of Product" class="element_photo_card"></div>
+                    <div class="element2"><p>Мотоботи Alpinestars TECH 3 ENDURO, Чорний</p></div>
+                    <div class="element3">
+                        <button class="element_button element_button1">Купити</button>
+                    </div>
+                    <div class="element4"><p>12 708 грн</p></div>
+                </div>
+                <div class="element_grid-container">
+                    <div class="element1"><img
+                            src="../assets/products/motorcycle_boots/gaerne_gp1_evo_white_black_yellow.png"
+                            alt="Photo of Product" class="element_photo_card"></div>
+                    <div class="element2"><p>Мотоботи Gaerne GP1 EVO, Білий/Чорний/Жовтий</p></div>
+                    <div class="element3">
+                        <button class="element_button element_button1">Купити</button>
+                    </div>
+                    <div class="element4"><p>21 107 грн</p></div>
+                </div>
+                <div class="element_grid-container">
+                    <div class="element1"><img
+                            src="../assets/products/motorcycle_jackets/icon_hooligan_ultrabolt_grey_black_red.png"
+                            alt="Photo of Product" class="element_photo_card"></div>
+                    <div class="element2"><p>Мотокуртка Icon Hooligan Ultrabolt, Сірий/Чорний/Червоний</p></div>
+                    <div class="element3">
+                        <button class="element_button element_button1">Купити</button>
+                    </div>
+                    <div class="element4"><p>7 328 грн</p></div>
+                </div>
+                <div class="element_grid-container">
+                    <div class="element1"><img
+                            src="../assets/products/motorcycle_jackets/alpinestars_tgp_plus_r_v4_airflow_black_white.png"
+                            alt="Photo of Product" class="element_photo_card"></div>
+                    <div class="element2"><p>Мотокуртка Alpinestars T-GP Plus R V4 Airflow, Чорний/Білий</p></div>
+                    <div class="element3">
+                        <button class="element_button element_button1">Купити</button>
+                    </div>
+                    <div class="element4"><p>15 582 грн</p></div>
+                </div>
+                <div class="element_grid-container">
+                    <div class="element1"><img src="../assets/products/motorcycle_jackets/ls-2_nevada_man.png"
+                                               alt="Photo of Product" class="element_photo_card"></div>
+                    <div class="element2"><p>Мотокуртка LS-2 NEVADA MAN, Чорний/Жовтий</p></div>
+                    <div class="element3">
+                        <button class="element_button element_button1">Купити</button>
+                    </div>
+                    <div class="element4"><p>15 510 грн</p></div>
+                </div>
+                <div class="element_grid-container">
+                    <div class="element1"><img src="../assets/products/motorcycle_jackets/oxford_toledo_20_ms.png"
+                                               alt="Photo of Product" class="element_photo_card"></div>
+                    <div class="element2"><p>Мотокуртка Oxford Toledo 2.0 MS, Чорний/Жовтий</p></div>
+                    <div class="element3">
+                        <button class="element_button element_button1">Купити</button>
+                    </div>
+                    <div class="element4"><p>7 050 грн</p></div>
+                </div>
+                <div class="element_grid-container">
+                    <div class="element1"><img
+                            src="../assets/products/motorcycle_helmets/icon_airflite_4_horsemen_blue.png"
+                            alt="Photo of Product" class="element_photo_card_horizontal"></div>
+                    <div class="element2"><p>Шолом Icon Airflite 4 Horsemen, Синій/Кольоровий</p></div>
+                    <div class="element3">
+                        <button class="element_button element_button1">Купити</button>
+                    </div>
+                    <div class="element4"><p>14 017 грн</p></div>
+                </div>
+                <div class="element_grid-container">
+                    <div class="element1"><img
+                            src="../assets/products/motorcycle_helmets/ls2_ff324_metro_black_green.png"
+                            alt="Photo of Product" class="element_photo_card_horizontal"></div>
+                    <div class="element2"><p>Шолом LS-2 FF324 METRO, Чорний матовий/Зелений</p></div>
+                    <div class="element3">
+                        <button class="element_button element_button1">Купити</button>
+                    </div>
+                    <div class="element4"><p>7 050 грн</p></div>
+                </div>
+                <div class="element_grid-container">
+                    <div class="element1"><img
+                            src="../assets/products/motorcycle_helmets/alpinestars_supertech_m5_black.png"
+                            alt="Photo of Product" class="element_photo_card_horizontal"></div>
+                    <div class="element2"><p>Шолом Alpinestars Supertech M5, Чорний</p></div>
+                    <div class="element3">
+                        <button class="element_button element_button1">Купити</button>
+                    </div>
+                    <div class="element4"><p>13 008 грн</p></div>
+                </div>
+                <div class="element_grid-container">
+                    <div class="element1"><img
+                            src="../assets/products/motorcycle_helmets/caber_avalon_blast_black_white_yellow.png"
+                            alt="Photo of Product" class="element_photo_card_horizontal"></div>
+                    <div class="element2"><p>Шолом Caberg AVALON BLAST, Чорний матовий/Білий/Жовтий</p></div>
+                    <div class="element3">
+                        <button class="element_button element_button1">Купити</button>
+                    </div>
+                    <div class="element4"><p>6 572 грн</p></div>
+                </div>
+                <div class="element_grid-container">
+                    <div class="element1"><img src="../assets/products/motorcycle_gloves/alpinestars_radar_yellow.png"
+                                               alt="Photo of Product" class="element_photo_card_horizontal"></div>
+                    <div class="element2"><p>Моторукавички Alpinestars Radar, Жовтий</p></div>
+                    <div class="element3">
+                        <button class="element_button element_button1">Купити</button>
+                    </div>
+                    <div class="element4"><p>1 623 грн</p></div>
+                </div>
+                <div class="element_grid-container">
+                    <div class="element1"><img src="../assets/products/motorcycle_gloves/icon_anthem_2_stealth.png"
+                                               alt="Photo of Product" class="element_photo_card"></div>
+                    <div class="element2"><p>Моторукавички Icon Anthem 2 Stealth, Червоний</p></div>
+                    <div class="element3">
+                        <button class="element_button element_button1">Купити</button>
+                    </div>
+                    <div class="element4"><p>1 623 грн</p></div>
+                </div>
+                <div class="element_grid-container">
+                    <div class="element1"><img src="../assets/products/motorcycle_gloves/thor_spectrum_cold_weather.png"
+                                               alt="Photo of Product" class="element_photo_card"></div>
+                    <div class="element2"><p>Моторукавички THOR Spectrum Cold Weather, Червоний/Білий</p></div>
+                    <div class="element3">
+                        <button class="element_button element_button1">Купити</button>
+                    </div>
+                    <div class="element4"><p>1 288 грн</p></div>
+                </div>
+                <div class="element_grid-container">
+                    <div class="element1"><img src="../assets/products/motorcycle_gloves/oxford_rockdale_ms_black.png"
+                                               alt="Photo of Product" class="element_photo_card_horizontal"></div>
+                    <div class="element2"><p>Моторукавички Oxford Rockdale MS, Чорний</p></div>
+                    <div class="element3">
+                        <button class="element_button element_button1">Купити</button>
+                    </div>
+                    <div class="element4"><p>3 384 грн</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="item6"></div>
+    </div>
+</div>
+
+</body>
+</html>
