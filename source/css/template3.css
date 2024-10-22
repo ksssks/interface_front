@@ -136,6 +136,7 @@ address ul {
 
 .third_template_2 {
     margin-top: 1rem;
+    position: relative;
 }
 
 .third_main_box {
@@ -170,8 +171,12 @@ address ul {
 }
 
 .third_template_2 .third_template_register_2_button {
-    margin-left: 36%;
     margin-top: 0.5rem;
+    float: left;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left:unset;
 }
 
 .third_main_box_number{

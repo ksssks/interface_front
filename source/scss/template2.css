@@ -275,6 +275,14 @@
     font-size: 0.8rem;
     align-self: center;
   }
+  .element1,
+  .element3 {
+    max-width: 10rem;
+  }
+  .element2,
+  .element4 {
+    width: 13rem;
+  }
   .element_button {
     height: auto;
     padding: 0.5rem;
@@ -285,6 +293,9 @@
     padding: 10px;
   }
   .apply-filters {
+    width: 50%;
+  }
+  .price-rage {
     width: 50%;
   }
   .second_template_search-input {
