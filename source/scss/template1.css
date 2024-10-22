@@ -95,7 +95,7 @@
     flex-direction: column;
   }
   .first_template_search-input {
-    width: 100%;
+    width: 80% !important;
     margin: 0.5rem 0;
   }
   .first_header {

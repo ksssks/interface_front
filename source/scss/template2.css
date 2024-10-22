@@ -140,7 +140,7 @@
 .element4 {
   grid-column: 1/span 2;
   grid-row: 3;
-  font-size: 0.8rem;
+  font-size: 0.5rem;
   border-radius: 10px;
 }
 
@@ -240,7 +240,7 @@
   color: black;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1400px) {
   .grid-container {
     grid-template-areas: "logo" "search" "cart" "menu" "main" "right";
     grid-template-columns: 1fr;
@@ -281,7 +281,7 @@
   }
   .element2,
   .element4 {
-    width: 13rem;
+    max-width: 20rem;
   }
   .element_button {
     height: auto;
@@ -289,11 +289,7 @@
     font-size: 0.9rem;
   }
   .sidebar {
-    width: 90%;
     padding: 10px;
-  }
-  .apply-filters {
-    width: 50%;
   }
   .price-rage {
     width: 50%;
